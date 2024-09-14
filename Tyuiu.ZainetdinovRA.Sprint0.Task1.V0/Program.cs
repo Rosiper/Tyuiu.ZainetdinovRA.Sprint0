@@ -11,9 +11,12 @@ namespace Tyuiu.ZainetdinovRA.Sprint0.Task1.V0
         static void Main(string[] args) 
         {
             Console.WriteLine("Hello, World");
+
             string name = "Ruslan";
             int age = 18;
+
             Console.WriteLine("Hello my name is "+name+" I'm "+age+" years old."); 
+
             Console.ReadKey();
         }
     }
