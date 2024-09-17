@@ -25,7 +25,7 @@ namespace Tyuiu.ZainetdinovRA.Sprint0.Task5.V0.Lib
 
         public static int Division (int a, int b)
         {
-            if (b == 0)
+            if (b == a)
             {
                 Console.WriteLine("Variable b = {0} division by zero is not allowed", b);
                 return -1;
